@@ -127,9 +127,9 @@
   @apply text-[14px] leading-[17px];
 }
 
-.car-card__btn-container {
+/* .car-card__btn-container {
   @apply hidden group-hover:flex absolute bottom-0 w-full z-10;
-}
+} */
 /* END: Car Card styles */
 
 /* START: Car Details styles */
@@ -202,7 +202,7 @@
 
 /* START: search manufacturer styles */
 .search-manufacturer {
-  @apply flex-1 max-sm:w-full flex justify-start items-center;
+  @apply z-50 flex-1 max-sm:w-full flex justify-start items-center;
 }
 
 .search-manufacturer__input {
