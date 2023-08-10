@@ -1,8 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  images: {
-    domains: ["cdn.imagin.studio", "shorturl.ac", "res.cloudinary.com"],
-  },
-};
+    images: {
+        domains: ["cdn.imagin.studio", "shorturl.ac", "res.cloudinary.com"]
+    }
+}
 
-module.exports = nextConfig;
+module.exports = nextConfig
