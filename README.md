@@ -1,12 +1,12 @@
-Cars-Next.js
+Cars-Next.js <br/>
 
-Technologies :
-FullStack - Next.js, Typescript
-UI Library: Tailwind, Headless UI
-Fetch Cars Data: Rapid API
-Hosting - Amplify AWS
-Storage - Cloudinary
-Cars Images Collection - Custom data structure which I built.
+Technologies : <br/>
+FullStack - Next.js, Typescript <br/>
+UI Library: Tailwind, Headless UI <br/>
+Fetch Cars Data: Rapid API <br/>
+Hosting - Amplify AWS <br/>
+Storage - Cloudinary <br/>
+Cars Images Collection - Custom data structure which I built. <br/>
 
 <!-- Deployed app - https://oliakrasilnikov-instagram.web.app/instagram -->
 
