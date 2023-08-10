@@ -1,6 +1,6 @@
-import { CarProps, Filterprops } from "@/types";
+import { CarProps, FilterProps } from "@/types";
 
-export async function fetchCars(filters: Filterprops) {
+export async function fetchCars(filters: FilterProps) {
   const { manufacturer, year, model, limit, fuel } = filters;
 
   const headers = {
@@ -151,5 +151,71 @@ export const carImages = [
     2: "https://res.cloudinary.com/dzdhk1o3q/image/upload/v1691437823/cars/202_m4gvbq.jpg",
     3: "https://res.cloudinary.com/dzdhk1o3q/image/upload/v1691437824/cars/203_bs0sbl.jpg",
     4: "https://res.cloudinary.com/dzdhk1o3q/image/upload/v1691437823/cars/204_lcfyo7.jpg",
+  },
+  {
+    1: "https://res.cloudinary.com/dsinv9pik/image/upload/v1691681861/chrysler1_rvk2cm.jpg",
+    2: "https://res.cloudinary.com/dsinv9pik/image/upload/v1691681989/chrysler2_bynzga.jpg",
+    3: "https://res.cloudinary.com/dsinv9pik/image/upload/v1691682027/chrysler3_ynp5wv.jpg",
+    4: "https://res.cloudinary.com/dsinv9pik/image/upload/v1691682055/chrysler4_llbed9.jpg",
+  },
+  {
+    1: "https://res.cloudinary.com/dsinv9pik/image/upload/v1691682762/c1_zswfwh.jpg",
+    2: "https://res.cloudinary.com/dsinv9pik/image/upload/v1691682873/c2_wycydk.jpg",
+    3: "https://res.cloudinary.com/dsinv9pik/image/upload/v1691682962/c3_evggmb.jpg",
+    4: "https://res.cloudinary.com/dsinv9pik/image/upload/v1691683015/c4_f9hb4n.jpg",
+  },
+  {
+    1: "https://res.cloudinary.com/dsinv9pik/image/upload/v1691683543/a1_icch6j.jpg",
+    2: "https://res.cloudinary.com/dsinv9pik/image/upload/v1691683583/a2_sveppc.jpg",
+    3: "https://res.cloudinary.com/dsinv9pik/image/upload/v1691683623/a3_zsxael.jpg",
+    4: "https://res.cloudinary.com/dsinv9pik/image/upload/v1691683655/a4_fepq0g.jpg",
+  },
+  {
+    1: "https://res.cloudinary.com/dsinv9pik/image/upload/v1691684475/b1_q2oxba.jpg",
+    2: "https://res.cloudinary.com/dsinv9pik/image/upload/v1691684602/b2_jxqqlw.jpg",
+    3: "https://res.cloudinary.com/dsinv9pik/image/upload/v1691684647/b3_k4pfpg.jpg",
+    4: "https://res.cloudinary.com/dsinv9pik/image/upload/v1691684675/b4_xtzrsa.jpg",
+  },
+  {
+    1: "https://res.cloudinary.com/dsinv9pik/image/upload/v1691685010/d1_awv9dq.jpg",
+    2: "https://res.cloudinary.com/dsinv9pik/image/upload/v1691685150/d2_oh97sj.jpg",
+    3: "https://res.cloudinary.com/dsinv9pik/image/upload/v1691685179/d3_k7chcx.jpg",
+    4: "https://res.cloudinary.com/dsinv9pik/image/upload/v1691685294/d4_llvqvq.jpg",
+  },
+  {
+    1: "https://res.cloudinary.com/dsinv9pik/image/upload/v1691686196/e1_saindb.jpg",
+    2: "https://res.cloudinary.com/dsinv9pik/image/upload/v1691686254/e2_vyf6jo.jpg",
+    3: "https://res.cloudinary.com/dsinv9pik/image/upload/v1691686384/e3_k5unoy.jpg",
+    4: "https://res.cloudinary.com/dsinv9pik/image/upload/v1691686431/e4_vk26my.jpg",
+  },
+  {
+    1: "https://res.cloudinary.com/dsinv9pik/image/upload/v1691686559/f1_gbq4k3.jpg",
+    2: "https://res.cloudinary.com/dsinv9pik/image/upload/v1691686654/f2_swsriv.jpg",
+    3: "https://res.cloudinary.com/dsinv9pik/image/upload/v1691686682/f3_p4f715.jpg",
+    4: "https://res.cloudinary.com/dsinv9pik/image/upload/v1691686735/f4_lfwqkh.jpg",
+  },
+  {
+    1: "https://res.cloudinary.com/dsinv9pik/image/upload/v1691686891/g1_fgqrre.jpg",
+    2: "https://res.cloudinary.com/dsinv9pik/image/upload/v1691687002/g2_crejqq.jpg",
+    3: "https://res.cloudinary.com/dsinv9pik/image/upload/v1691687046/g3_ymyylk.jpg",
+    4: "https://res.cloudinary.com/dsinv9pik/image/upload/v1691687074/g4_amwopo.jpg",
+  },
+  {
+    1: "https://res.cloudinary.com/dsinv9pik/image/upload/v1691687528/h1_ktqj4n.jpg",
+    2: "https://res.cloudinary.com/dsinv9pik/image/upload/v1691687644/h2_qppjhf.jpg",
+    3: "https://res.cloudinary.com/dsinv9pik/image/upload/v1691687709/h3_jih6mk.jpg",
+    4: "https://res.cloudinary.com/dsinv9pik/image/upload/v1691687738/h4_nymglw.jpg",
+  },
+  {
+    1: "https://res.cloudinary.com/dsinv9pik/image/upload/v1691688713/i1_ciwlkt.jpg",
+    2: "https://res.cloudinary.com/dsinv9pik/image/upload/v1691688851/i2_jkucjq.jpg",
+    3: "https://res.cloudinary.com/dsinv9pik/image/upload/v1691688887/i3_f2xrwt.jpg",
+    4: "https://res.cloudinary.com/dsinv9pik/image/upload/v1691688913/i4_vzvtzk.jpg",
+  },
+  {
+    1: "https://res.cloudinary.com/dsinv9pik/image/upload/v1691689230/j1_zmgyme.jpg",
+    2: "https://res.cloudinary.com/dsinv9pik/image/upload/v1691689362/j2_swut1c.jpg",
+    3: "https://res.cloudinary.com/dsinv9pik/image/upload/v1691689388/j3_mmk6bl.jpg",
+    4: "https://res.cloudinary.com/dsinv9pik/image/upload/v1691689415/j4_yoauuj.jpg",
   },
 ];
