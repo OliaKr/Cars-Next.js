@@ -218,4 +218,16 @@ export const carImages = [
     3: "https://res.cloudinary.com/dsinv9pik/image/upload/v1691689388/j3_mmk6bl.jpg",
     4: "https://res.cloudinary.com/dsinv9pik/image/upload/v1691689415/j4_yoauuj.jpg",
   },
+  {
+    1: "https://res.cloudinary.com/dzdhk1o3q/image/upload/v1691691467/f1_veatp9.png",
+    2: "https://res.cloudinary.com/dzdhk1o3q/image/upload/v1691691469/f3_qmmsnb.png",
+    3: "https://res.cloudinary.com/dzdhk1o3q/image/upload/v1691691470/f4_zbzywn.png",
+    4: "https://res.cloudinary.com/dzdhk1o3q/image/upload/v1691691472/f2_nrk5nl.png",
+  },
+  {
+    1: "https://res.cloudinary.com/dzdhk1o3q/image/upload/v1691691470/s3_o9sosy.png",
+    2: "https://res.cloudinary.com/dzdhk1o3q/image/upload/v1691691469/s4_dihuz1.png",
+    3: "https://res.cloudinary.com/dzdhk1o3q/image/upload/v1691691466/s1_uozpt8.png",
+    4: "https://res.cloudinary.com/dzdhk1o3q/image/upload/v1691691466/s2_frqfva.png",
+  },
 ];
