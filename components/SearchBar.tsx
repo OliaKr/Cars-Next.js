@@ -7,7 +7,10 @@ import { useRouter } from "next/navigation";
 import SearchManufacturer from "./SearchManufacturer";
 
 const SearchButton = ({ otherClasses }: { otherClasses: string }) => (
-  <button type="submit" className={`-ml-3 z-10 ${otherClasses}`}>
+  <button
+    type="submit"
+    className={`-ml-3 z-10 ${otherClasses}`}
+  >
     <Image
       src={"/magnifying-glass.svg"}
       alt={"magnifying glass"}
@@ -18,7 +21,7 @@ const SearchButton = ({ otherClasses }: { otherClasses: string }) => (
   </button>
 );
 
-const SearchBar = () => {
+const Searchbar = () => {
   const [manufacturer, setManuFacturer] = useState("");
   const [model, setModel] = useState("");
 
@@ -61,7 +64,10 @@ const SearchBar = () => {
   };
 
   return (
-    <form className="searchbar" onSubmit={handleSearch}>
+    <form
+      className="searchbar"
+      onSubmit={handleSearch}
+    >
       <div className="searchbar__item">
         <SearchManufacturer
           manufacturer={manufacturer}
@@ -92,4 +98,4 @@ const SearchBar = () => {
   );
 };
 
-export default SearchBar;
+export default Searchbar;
