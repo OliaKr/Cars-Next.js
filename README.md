@@ -8,7 +8,7 @@ Hosting - Vercel <br/>
 Storage - Cloudinary <br/>
 Cars Images Collection - Custom data structure which I built. <br/>
 
-<!-- Deployed app - https://oliakrasilnikov-instagram.web.app/instagram -->
+Deployed app - https://cars-next-js-gair-oliakr.vercel.app/
 
 ![alt text](https://github.com/OliaKr/Cars-Next.js/blob/main/public/ScreenShot1.JPG)
 ![alt text](https://github.com/OliaKr/Cars-Next.js/blob/main/public/ScreenShot2.JPG)
